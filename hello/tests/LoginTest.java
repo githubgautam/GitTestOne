@@ -39,7 +39,7 @@ public class LoginTest extends BaseTest {
                 logger.info("Successfully loaded login test data");
             }
         } catch (IOException e) {
-            logger.error("Failed to load login test data: {}", e.getMessage());
+            logger.error("failed to load login test data: {}", e.getMessage());
             throw new RuntimeException("Failed to load login test data", e);
         }
     }
